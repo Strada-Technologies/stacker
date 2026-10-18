@@ -3,7 +3,7 @@
 
 .text
 
-#if CFG_TARGET_OS_darwin || CFG_TARGET_OS_macos || CFG_TARGET_OS_ios
+#if CFG_TARGET_OS_darwin || CFG_TARGET_OS_macos || CFG_TARGET_OS_ios || CFG_TARGET_OS_tvos || CFG_TARGET_OS_watchos || CFG_TARGET_OS_visionos
 
 #define GLOBL(fnname) .globl _##fnname
 #define TYPE(fnname)
